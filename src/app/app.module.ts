@@ -3,8 +3,11 @@ import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule, HttpClient } from '@angular/common/http';
 import { AppComponent } from './app.component';
+// @ts-ignore
 import { PageListComponent } from './page-list/page-list.component';
+// @ts-ignore
 import { TemplateTodoComponent } from './_template/template-todo/template-todo.component';
+// @ts-ignore
 import { TemplateTodoFormComponent } from './_template/template-todo-form/template-todo-form.component';
 import { TemplateHeaderComponent } from './_template/template-header/template-header.component';
 
